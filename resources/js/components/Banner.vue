@@ -14,7 +14,7 @@
     <div class="container">
       <h1>Viper Vectors</h1>
       <p>Your solution to your <span class="highlight">software development</span></p>
-      <p>needs. We promise and we deliver!</p>
+      <p>needs. We <span class="highlight-red">promise</span> and we <span class="highlight-red">deliver</span>!</p>
     </div>
   </section>
 </template>
@@ -38,6 +38,7 @@ export default {
   flex-direction: column;
   position: relative;  
   padding-left: 30px; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .logo-container {
@@ -110,5 +111,10 @@ export default {
   padding: 5px 10px;  
   color: white;  
   border-radius: 5px; 
+}
+
+.highlight-red {
+  color: #c20000; 
+  font-weight: bold; 
 }
 </style>

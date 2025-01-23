@@ -16,18 +16,19 @@
             padding: 0;
             background-color: white;
         }
-
+    
         /* Services Section */
         .services {
             padding: 50px 20px;
             background-color: white;
+            text-align: center;
         }
 
         .services h1 {
-            color: white;  
+            color: #c20000;  
             padding: 15px;
             display: inline-block;  
-            background-color: #c20000;  
+            margin: 0;
 
         }
         .services-container {
@@ -62,7 +63,7 @@
   <!-- Services Section -->
   <section class="services">
         <div class="container">
-            <h1> Services we provide:</h1>
+            <h1> Services we provide</h1>
 
             <div class="services-container">
                 <service-card
